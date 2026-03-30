@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUALISaP-PNAISP — Curso de Qualificação em Saúde Prisional</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">
+                <img src="image/logo-atencao-primaria-prisional.svg" alt="Logo Atenção Primária Prisional"
+                    class="brand-logo" onerror="this.style.display='none'">
+                <div class="brand-text-wrap">
+                    <span class="brand-main">QUALISaP</span>
+                    <span class="brand-sub">PNAISP</span>
+                </div>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#objetivos">Objetivos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#modulos">Módulos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#autores">Autores</a></li>
+                    <li class="nav-item ms-lg-1">
+                        <a class="nav-link btn-nav-cta" href="#inscricao">Inscreva-se</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+
+                <div class="col-lg-7">
+                    <p class="hero-tag mb-3">
+                        <i class="bi bi-buildings"></i>
+                        Ministério da Saúde &nbsp;·&nbsp; Fiocruz Mato Grosso do Sul
+                    </p>
+                    <h1 class="hero-title mb-2">QUALISaP-PNAISP</h1>
+                    <p class="hero-subtitle mb-3">Curso de Qualificação em Saúde Prisional</p>
+                    <p class="hero-desc mb-4">
+                        Trilha de aprendizagem para gestores, trabalhadores e profissionais da saúde — fortalecendo a
+                        Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema
+                        Prisional.
+                    </p>
+                    <div class="mb-4">
+                        <span class="hero-badge"><i class="bi bi-mortarboard"></i> 115 horas</span>
+                        <span class="hero-badge"><i class="bi bi-laptop"></i> EAD</span>
+                        <span class="hero-badge"><i class="bi bi-award"></i> Certificado</span>
+                        <span class="hero-badge"><i class="bi bi-people"></i> Gratuito</span>
+                    </div>
+                    <a href="#inscricao" class="btn-hero">
+                        <i class="bi bi-pencil-square"></i>Inscreva-se Agora
+                    </a>
+                </div>
+
+                <div class="col-lg-5 text-center">
+                    <img src=""
+                        alt="[Imagem: profissional de saúde atendendo com atenção e humanização em unidade prisional — perfil institucional sério, tons neutros]"
+                        class="hero-placeholder-img"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <svg style="display:none; width:100%; max-width:420px;" viewBox="0 0 420 360" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" aria-label="Ilustração decorativa: saúde e cuidado">
+                        <rect width="420" height="360" rx="12" fill="rgba(255,255,255,0.28)" />
+                        <circle cx="320" cy="60" r="70" fill="rgba(183,231,243,0.35)" />
+                        <circle cx="90" cy="290" r="55" fill="rgba(250,173,165,0.28)" />
+                        <circle cx="350" cy="300" r="40" fill="rgba(182,238,167,0.25)" />
+                        <rect x="110" y="60" width="200" height="240" rx="12" fill="rgba(255,255,255,0.75)" />
+                        <rect x="110" y="60" width="200" height="12" rx="6" fill="rgba(146,186,218,0.7)" />
+                        <rect x="130" y="90" width="120" height="8" rx="4" fill="rgba(44,62,80,0.18)" />
+                        <rect x="130" y="106" width="90" height="8" rx="4" fill="rgba(44,62,80,0.1)" />
+                        <path
+                            d="M210 150 C210 150 185 132 185 118 C185 110 191 104 198 107 C202 109 207 114 210 119 C213 114 218 109 222 107 C229 104 235 110 235 118 C235 132 210 150 210 150Z"
+                            fill="rgba(250,173,165,0.85)" />
+                        <polyline points="130,175 152,175 160,158 168,192 178,168 188,175 290,175"
+                            stroke="rgba(146,186,218,0.9)" stroke-width="2.5" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <rect x="130" y="192" width="160" height="1" fill="rgba(44,62,80,0.08)" />
+                        <rect x="130" y="202" width="100" height="7" rx="3.5" fill="rgba(44,62,80,0.12)" />
+                        <rect x="130" y="216" width="140" height="7" rx="3.5" fill="rgba(44,62,80,0.08)" />
+                        <rect x="130" y="230" width="80" height="7" rx="3.5" fill="rgba(44,62,80,0.08)" />
+                        <rect x="130" y="252" width="52" height="22" rx="6" fill="rgba(146,186,218,0.55)" />
+                        <text x="156" y="267" text-anchor="middle" font-family="Jost,sans-serif" font-weight="700"
+                            font-size="10" fill="rgba(44,62,80,0.75)">EAD</text>
+                        <rect x="192" y="252" width="52" height="22" rx="6" fill="rgba(255,246,153,0.7)" />
+                        <text x="218" y="267" text-anchor="middle" font-family="Jost,sans-serif" font-weight="700"
+                            font-size="10" fill="rgba(44,62,80,0.75)">115h</text>
+                        <circle cx="342" cy="130" r="22" fill="rgba(146,186,218,0.45)" />
+                        <circle cx="342" cy="123" r="10" fill="rgba(255,255,255,0.7)" />
+                        <path d="M320 155 Q342 144 364 155 L364 160 Q342 152 320 160 Z" fill="rgba(255,255,255,0.7)" />
+                        <path
+                            d="M72 110 L72 90 Q72 85 77 83 L96 77 L115 83 Q120 85 120 90 L120 110 Q120 128 96 138 Q72 128 72 110 Z"
+                            fill="rgba(182,238,167,0.5)" />
+                        <path d="M83 108 L92 117 L109 98" stroke="rgba(60,140,50,0.7)" stroke-width="3" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <text x="210" y="340" text-anchor="middle" font-family="Jost,sans-serif" font-weight="500"
+                            font-size="10.5" fill="rgba(44,62,80,0.32)">[Imagem: profissional de saúde prisional —
+                            substituir por foto real]</text>
+                    </svg>
+                </div>
+
+            </div>
+        </div>
+        <div class="hero-scroll-hint d-none d-md-block">
+            <i class="bi bi-chevron-down d-block mb-1"></i>
+            role para saber mais
+        </div>
+    </section>
+
+    <section class="section-regua">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap">
+                <span class="regua-label">Realização</span>
+                <div class="regua-divider d-none d-sm-block"></div>
+                <img src="image/regua-logos-prisional-800px.png"
+                    alt="Logos dos parceiros realizadores: Ministério da Saúde, Fiocruz Mato Grosso do Sul e demais instituições apoiadoras do QUALISaP-PNAISP"
+                    class="regua-img"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div style="display:none; align-items:center; gap:1.5rem; flex-wrap:wrap; justify-content:center;">
+                    <div class="regua-fallback-item">
+                        <i class="bi bi-bank"></i>
+                        <span>Ministério da Saúde</span>
+                    </div>
+                    <div class="regua-fallback-item">
+                        <i class="bi bi-eyedropper"></i>
+                        <span>Fiocruz Mato Grosso do Sul</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-numeros">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-6 col-md-3 stat-item">
+                    <span class="stat-num">115h</span>
+                    <span class="stat-label">Carga horária</span>
+                </div>
+                <div class="col-6 col-md-3 stat-item">
+                    <span class="stat-num">5</span>
+                    <span class="stat-label">Módulos temáticos</span>
+                </div>
+                <div class="col-6 col-md-3 stat-item">
+                    <span class="stat-icon"><i class="bi bi-award-fill"></i></span>
+                    <span class="stat-label">Certificado de conclusão</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-objetivos py-5" id="objetivos">
+        <div class="container py-3">
+            <div class="text-center mb-5">
+                <p class="section-label">Para quem é</p>
+                <h2 class="section-title mb-2">Objetivo do Curso</h2>
+                <div class="section-underline mx-auto mb-4"></div>
+                <p class="objetivo-text">
+                    Promover a qualificação de gestores(as), trabalhadores(as) e profissionais da saúde e da justiça e
+                    segurança pública que atuam no cuidado à saúde da população privada de liberdade para implementação
+                    da <strong>Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no
+                        Sistema Prisional (PNAISP)</strong>.
+                </p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="card-publico h-100 p-4 text-center">
+                        <div class="card-icon"><i class="bi bi-person-gear"></i></div>
+                        <p class="card-publico-title">Gestores(as)</p>
+                        <p class="card-publico-desc">Profissionais de gestão da saúde e da justiça</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-publico rosa h-100 p-4 text-center">
+                        <div class="card-icon"><i class="bi bi-heart-pulse"></i></div>
+                        <p class="card-publico-title">Trabalhadores(as)</p>
+                        <p class="card-publico-desc">Equipes que atuam no sistema prisional</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-publico verde h-100 p-4 text-center">
+                        <div class="card-icon"><i class="bi bi-hospital"></i></div>
+                        <p class="card-publico-title">Profissionais da Saúde</p>
+                        <p class="card-publico-desc">Médicos, enfermeiros e demais profissionais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-impacto py-5">
+        <div class="container py-3">
+            <div class="row align-items-center gy-5">
+
+                <div class="col-lg-6">
+                    <div class="impacto-img-col">
+                        <img src=""
+                            alt="[Imagem: profissional de saúde em atendimento humanizado dentro de unidade prisional brasileira — representa o cuidado integral que a PNAISP busca garantir]"
+                            onerror="this.style.display='none';">
+                        <div class="impacto-img-overlay"></div>
+                        <div
+                            style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; opacity:0.15;">
+                            <svg viewBox="0 0 200 200" width="200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="100" cy="100" r="90" stroke="white" stroke-width="2" />
+                                <rect x="82" y="42" width="36" height="76" rx="8" fill="white" />
+                                <rect x="62" y="62" width="76" height="36" rx="8" fill="white" />
+                                <path
+                                    d="M100 155 C100 155 68 132 68 112 C68 100 78 93 87 97 C92 99 97 105 100 110 C103 105 108 99 113 97 C122 93 132 100 132 112 C132 132 100 155 100 155Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <div class="impacto-img-badge">
+                            <strong>700 mil+</strong>
+                            pessoas privadas de liberdade no Brasil
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <p class="section-label">Por que essa qualificação importa</p>
+                    <h2 class="section-title mb-3">Saúde é um direito de <em>todos</em> — inclusive de quem está privado
+                        de liberdade</h2>
+                    <p class="objetivo-text mb-4">
+                        A <strong>PNAISP</strong> garante que pessoas em unidades prisionais tenham acesso à atenção
+                        integral à saúde no âmbito do SUS. Para que essa política se torne realidade, é preciso
+                        qualificar quem trabalha na linha de frente.
+                    </p>
+
+                    <div class="d-flex flex-column gap-3">
+                        <div class="impacto-stat">
+                            <div class="impacto-stat-icon"><i class="bi bi-people-fill"></i></div>
+                            <div>
+                                <span class="impacto-stat-title">Gestores e trabalhadores da saúde</span>
+                                <span class="impacto-stat-desc">Quem toma decisões e executa o cuidado no sistema
+                                    prisional</span>
+                            </div>
+                        </div>
+                        <div class="impacto-stat rosa">
+                            <div class="impacto-stat-icon"><i class="bi bi-heart-pulse-fill"></i></div>
+                            <div>
+                                <span class="impacto-stat-title">Equipes multidisciplinares</span>
+                                <span class="impacto-stat-desc">Médicos, enfermeiros, dentistas, psicólogos e outros
+                                    profissionais</span>
+                            </div>
+                        </div>
+                        <div class="impacto-stat verde">
+                            <div class="impacto-stat-icon"><i class="bi bi-shield-check"></i></div>
+                            <div>
+                                <span class="impacto-stat-title">Profissionais da justiça e segurança pública</span>
+                                <span class="impacto-stat-desc">Agentes e gestores que atuam no contexto da
+                                    custódia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-modulos py-5" id="modulos">
+        <div class="container py-3">
+            <div class="text-center mb-4">
+                <p class="section-label">Conteúdo programático</p>
+                <h2 class="section-title mb-2">Módulos do Curso</h2>
+                <div class="section-underline mx-auto"></div>
+            </div>
+
+            <div class="carousel-wrapper">
+                <div id="carouselModulos" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <div class="card-modulo">
+                                        <div class="card-modulo-stripe stripe-1"></div>
+                                        <div class="card-modulo-body">
+                                            <p class="mod-roman">Módulo I</p>
+                                            <h6 class="mod-title">Política Nacional de Atenção Integral à Saúde das PPL
+                                                (PNAISP)</h6>
+                                            <p class="mod-units mb-2"><i class="bi bi-layers me-1"></i>2 unidades</p>
+                                            <span class="badge-horas-mod"><i class="bi bi-clock me-1"></i>10
+                                                horas</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-modulo">
+                                        <div class="card-modulo-stripe stripe-2"></div>
+                                        <div class="card-modulo-body">
+                                            <p class="mod-roman">Módulo II</p>
+                                            <h6 class="mod-title">Direito, Diversidade e Equidade no Sistema Prisional
+                                            </h6>
+                                            <p class="mod-units mb-2"><i class="bi bi-layers me-1"></i>4 unidades</p>
+                                            <span class="badge-horas-mod"><i class="bi bi-clock me-1"></i>25
+                                                horas</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-modulo">
+                                        <div class="card-modulo-stripe stripe-3"></div>
+                                        <div class="card-modulo-body">
+                                            <p class="mod-roman">Módulo III</p>
+                                            <h6 class="mod-title">Saúde Prisional e a Rede de Atenção à Saúde</h6>
+                                            <p class="mod-units mb-2"><i class="bi bi-layers me-1"></i>2 unidades</p>
+                                            <span class="badge-horas-mod"><i class="bi bi-clock me-1"></i>20
+                                                horas</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <div class="card-modulo">
+                                        <div class="card-modulo-stripe stripe-4"></div>
+                                        <div class="card-modulo-body">
+                                            <p class="mod-roman">Módulo IV</p>
+                                            <h6 class="mod-title">Promoção da Saúde e Prevenção de Agravos e Doenças no
+                                                Sistema Prisional</h6>
+                                            <p class="mod-units mb-2"><i class="bi bi-layers me-1"></i>5 unidades</p>
+                                            <span class="badge-horas-mod"><i class="bi bi-clock me-1"></i>30
+                                                horas</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-modulo">
+                                        <div class="card-modulo-stripe stripe-5"></div>
+                                        <div class="card-modulo-body">
+                                            <p class="mod-roman">Módulo V</p>
+                                            <h6 class="mod-title">O Itinerário de Cuidado à Saúde no Âmbito da PNAISP
+                                            </h6>
+                                            <p class="mod-units mb-2"><i class="bi bi-layers me-1"></i>5 unidades</p>
+                                            <span class="badge-horas-mod"><i class="bi bi-clock me-1"></i>~30
+                                                horas</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex">
+                                    <div class="card-total-horas w-100 p-4">
+                                        <span class="card-total-horas-icon"><i class="bi bi-mortarboard"></i></span>
+                                        <p class="card-total-horas-label">Carga Horária Total</p>
+                                        <p class="card-total-horas-num">115h</p>
+                                        <p class="card-total-horas-sub">5 módulos · EAD</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselModulos"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span><span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselModulos"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span><span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+                <div class="d-flex justify-content-center gap-2 mt-3" id="modDots">
+                    <button class="carousel-dot active" data-bs-target="#carouselModulos" data-bs-slide-to="0"></button>
+                    <button class="carousel-dot" data-bs-target="#carouselModulos" data-bs-slide-to="1"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-matriz py-5" id="matriz">
+        <div class="container py-3">
+            <div class="text-center mb-4">
+                <p class="section-label">Detalhamento</p>
+                <h2 class="section-title mb-2">Matriz Curricular</h2>
+                <div class="section-underline mx-auto"></div>
+            </div>
+
+            <div class="accordion accordion-modulo" id="accordionMatriz">
+
+                <div class="accordion-item mod-1">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mod1">
+                            <span class="mod-num">I</span>
+                            <div class="flex-grow-1 d-flex align-items-center gap-2 flex-wrap">
+                                <span>Política Nacional de Atenção Integral à Saúde das PPL (PNAISP)</span>
+                                <span class="badge-horas"><i class="bi bi-clock me-1"></i>10h</span>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="mod1" class="accordion-collapse collapse show" data-bs-parent="#accordionMatriz">
+                        <div class="accordion-body px-4 py-3">
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 1:
+                                    Estrutura e Sistema Prisional</span><span class="badge-horas">5h</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 2: A
+                                    Atenção Integral à Saúde das PPL no Sistema Prisional</span><span
+                                    class="badge-horas">5h</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mod-2">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mod2">
+                            <span class="mod-num">II</span>
+                            <div class="flex-grow-1 d-flex align-items-center gap-2 flex-wrap">
+                                <span>Direito, Diversidade e Equidade no Sistema Prisional</span>
+                                <span class="badge-horas"><i class="bi bi-clock me-1"></i>25h</span>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="mod2" class="accordion-collapse collapse" data-bs-parent="#accordionMatriz">
+                        <div class="accordion-body px-4 py-3">
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 1:
+                                    Violência e Saúde</span><span class="badge-horas">5h</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 2:
+                                    Família, Comunidade e Reintegração Social</span><span class="badge-horas">5h</span>
+                            </div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 3:
+                                    Diversidade e Inclusão no Sistema Prisional</span><span
+                                    class="badge-horas">10h</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 4:
+                                    Racismo Estrutural</span><span class="badge-horas">5h</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mod-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mod3">
+                            <span class="mod-num">III</span>
+                            <div class="flex-grow-1 d-flex align-items-center gap-2 flex-wrap">
+                                <span>Saúde Prisional e a Rede de Atenção à Saúde</span>
+                                <span class="badge-horas"><i class="bi bi-clock me-1"></i>20h</span>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="mod3" class="accordion-collapse collapse" data-bs-parent="#accordionMatriz">
+                        <div class="accordion-body px-4 py-3">
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 1: A
+                                    Saúde Prisional como Parte Integrante da RAS no SUS</span><span
+                                    class="badge-horas">10h</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 2: O
+                                    Processo de Trabalho das Equipes ESF e das Equipes de Atenção às Unidades Prisionais
+                                    e a Articulação com a RAS</span><span class="badge-horas">10h</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mod-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mod4">
+                            <span class="mod-num">IV</span>
+                            <div class="flex-grow-1 d-flex align-items-center gap-2 flex-wrap">
+                                <span>Promoção da Saúde e Prevenção de Agravos e Doenças no Sistema Prisional</span>
+                                <span class="badge-horas"><i class="bi bi-clock me-1"></i>30h</span>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="mod4" class="accordion-collapse collapse" data-bs-parent="#accordionMatriz">
+                        <div class="accordion-body px-4 py-3">
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 1:
+                                    Promoção da Saúde</span><span class="badge-horas">6h</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 2:
+                                    Agravos e Doenças Transmissíveis e Não Transmissíveis</span><span
+                                    class="badge-horas">6h</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 3:
+                                    Saúde da Mulher</span><span class="badge-horas">6h</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 4:
+                                    Saúde Mental</span><span class="badge-horas">6h</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 5:
+                                    Saúde Bucal</span><span class="badge-horas">6h</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mod-5">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mod5">
+                            <span class="mod-num">V</span>
+                            <div class="flex-grow-1 d-flex align-items-center gap-2 flex-wrap">
+                                <span>O Itinerário de Cuidado à Saúde no Âmbito da PNAISP</span>
+                                <span class="badge-horas"><i class="bi bi-clock me-1"></i>~30h</span>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="mod5" class="accordion-collapse collapse" data-bs-parent="#accordionMatriz">
+                        <div class="accordion-body px-4 py-3">
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 1:
+                                    Cuidado e Tratamento de Agravos, Doenças Agudas, Crônicas e Infecciosas em Ambiente
+                                    Prisional</span><span class="badge-horas">10h</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 2:
+                                    Cuidado na Saúde da Mulher</span><span class="badge-horas">5h</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 3:
+                                    Cuidado e Tratamento em Saúde na Diversidade de Gênero</span><span
+                                    class="badge-horas badge-horas-pending">a definir</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 4:
+                                    Cuidado e Tratamento em Saúde Mental</span><span class="badge-horas">5h</span></div>
+                            <div class="unidade-item"><i class="bi bi-book"></i><span class="flex-grow-1">Unidade 5:
+                                    Cuidado e Tratamento em Saúde Bucal</span><span class="badge-horas">5h</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="banner-carga mt-4">
+                <p class="banner-carga-text mb-0 fw-bold">
+                    <i class="bi bi-clock-fill me-2"></i>Carga Horária Total:
+                    <span class="banner-carga-num">115 horas</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-autores py-5" id="autores">
+        <div class="container py-3">
+            <div class="text-center mb-4">
+                <p class="section-label">Quem elaborou</p>
+                <h2 class="section-title mb-2">Autores do Curso</h2>
+                <div class="section-underline mx-auto"></div>
+            </div>
+
+            <div class="carousel-wrapper">
+                <div id="carouselAutores" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo1-unid1/images/Marianna.jpg"
+                                            alt="Foto de Marianna do Prado Sampaio" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Marianna do Prado Sampaio</p>
+                                        <p class="autor-role">Autora</p>
+                                        <span class="autor-modulo">Módulo I</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo2-unid1/images/imagem-autor.jpg"
+                                            alt="Foto de Ciro César de Carvalho" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Ciro César de Carvalho</p>
+                                        <p class="autor-role">Autor</p>
+                                        <span class="autor-modulo">Módulo II</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo3-unid1/images/aline.jpg"
+                                            alt="Foto de Aline Aparecida Monroe" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Aline Aparecida Monroe</p>
+                                        <p class="autor-role">Autora</p>
+                                        <span class="autor-modulo">Módulo III</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo3-unid1/images/erika.jpg"
+                                            alt="Foto de Erika Aparecida Catoia" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Erika Aparecida Catoia</p>
+                                        <p class="autor-role">Autora</p>
+                                        <span class="autor-modulo">Módulo III</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo3-unid1/images/nanci.jpg"
+                                            alt="Foto de Nanci Michele Saita Santos" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Nanci Michele Saita Santos</p>
+                                        <p class="autor-role">Autora</p>
+                                        <span class="autor-modulo">Módulo III</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo3-unid1/images/pedro.jpg"
+                                            alt="Foto de Pedro Augusto Bossonario" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Pedro Augusto Bossonario</p>
+                                        <p class="autor-role">Autor</p>
+                                        <span class="autor-modulo">Módulo III</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo3-unid1/images/rubia.jpg"
+                                            alt="Foto de Rubia Laine de Paula Andrade Gonçalves" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Rubia Laine de Paula Andrade Gonçalves</p>
+                                        <p class="autor-role">Autora</p>
+                                        <span class="autor-modulo">Módulo III</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo4-unid1/images/lia.jpg"
+                                            alt="Foto de Lia Gonçalves Possuelo" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Lia Gonçalves Possuelo</p>
+                                        <p class="autor-role">Bióloga · Dra. em Ciências Biológicas · UNISC</p>
+                                        <span class="autor-modulo">Módulos IV · V · VI</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo4-unid1/images/milena.jpg"
+                                            alt="Foto de Milena Mantelli Dall' Soto" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Milena Mantelli Dall' Soto</p>
+                                        <p class="autor-role">Biomédica · Esp. em Saúde Coletiva · NUPESISP</p>
+                                        <span class="autor-modulo">Módulos IV · VI</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo4-unid1/images/thales.jpg"
+                                            alt="Foto de Thales Ávila Pedroso" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Thales Ávila Pedroso</p>
+                                        <p class="autor-role">Fisioterapeuta · Mestrando em Saúde Coletiva</p>
+                                        <span class="autor-modulo">Módulo IV</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo4-unid2/images/eduarda.jpg"
+                                            alt="Foto de Eduarda Gassen Boeira" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Eduarda Gassen Boeira</p>
+                                        <p class="autor-role">Biomédica · Mestranda em Promoção da Saúde</p>
+                                        <span class="autor-modulo">Módulos IV · VI</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo4-unid2/images/karine.jpg"
+                                            alt="Foto de Karine Zenatti Ely" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Karine Zenatti Ely</p>
+                                        <p class="autor-role">Enfermeira · Dra. em Promoção da Saúde · NUPESISP</p>
+                                        <span class="autor-modulo">Módulos IV · VI</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo4-unid3/images/samantha.png"
+                                            alt="Foto de Samantha Lopes de Moraes Longo" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Samantha Lopes de Moraes Longo</p>
+                                        <p class="autor-role">Advogada · Mestranda em Promoção da Saúde</p>
+                                        <span class="autor-modulo">Módulos IV · VI</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo4-unid4/images/daiane.png"
+                                            alt="Foto de Daiane Raquel Kist" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Daiane Raquel Kist</p>
+                                        <p class="autor-role">Enfermeira · Doutoranda em Promoção da Saúde · UNISC</p>
+                                        <span class="autor-modulo">Módulos IV · VI</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo4-unid5/images/giovana.jpg"
+                                            alt="Foto de Giovana Soares Buzinaro" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Giovana Soares Buzinaro</p>
+                                        <p class="autor-role">Cirurgiã-Dentista · Mestre em Saúde da Família · UFMS</p>
+                                        <span class="autor-modulo">Módulos IV · V</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/lucas.png"
+                                            alt="Foto de Lucas Moura de Oliveira" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Lucas Moura de Oliveira</p>
+                                        <p class="autor-role">Graduado em Odontologia (UFMS) · Esp. em Saúde Pública · Gerente de Saúde Bucal na APS, SES/MS</p>
+                                        <span class="autor-modulo">Módulos IV · V</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo5-unid1/images/autor.jpg"
+                                            alt="Foto de José Victor Bortolotto Bampi" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">José Victor Bortolotto Bampi</p>
+                                        <p class="autor-role">Autor</p>
+                                        <span class="autor-modulo">Módulo V</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo5-unid2/images/renata.jpg"
+                                            alt="Foto de Renata Martins da Silva Pithon" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Renata Martins da Silva Pithon</p>
+                                        <p class="autor-role">Autora</p>
+                                        <span class="autor-modulo">Módulo V</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row g-3 justify-content-center">
+                                <div class="col-md-4">
+                                    <div class="card-autor">
+                                        <img src="../projeto_fiocruz_2025/modulo6-unid1/images/pauline.jpg"
+                                            alt="Foto de Pauline Schwarzbold" class="autor-foto"
+                                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                        <div class="autor-avatar-fallback"><i class="bi bi-person-fill"></i></div>
+                                        <p class="autor-name">Pauline Schwarzbold</p>
+                                        <p class="autor-role">Autora</p>
+                                        <span class="autor-modulo">Módulo VI</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutores"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span><span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAutores"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span><span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+
+                <div class="d-flex justify-content-center gap-2 mt-3" id="autorDots">
+                    <button class="carousel-dot active" data-bs-target="#carouselAutores" data-bs-slide-to="0"></button>
+                    <button class="carousel-dot" data-bs-target="#carouselAutores" data-bs-slide-to="1"></button>
+                    <button class="carousel-dot" data-bs-target="#carouselAutores" data-bs-slide-to="2"></button>
+                    <button class="carousel-dot" data-bs-target="#carouselAutores" data-bs-slide-to="3"></button>
+                    <button class="carousel-dot" data-bs-target="#carouselAutores" data-bs-slide-to="4"></button>
+                    <button class="carousel-dot" data-bs-target="#carouselAutores" data-bs-slide-to="5"></button>
+                    <button class="carousel-dot" data-bs-target="#carouselAutores" data-bs-slide-to="6"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-cta py-5" id="inscricao">
+        <img src=""
+            alt="[Imagem de fundo: grupo de profissionais de saúde em capacitação ou reunião institucional — tom sério, comprometido, representa o público do curso]"
+            class="cta-bg-img" onerror="this.style.display='none';">
+        <div class="cta-overlay"></div>
+        <div class="cta-fallback-bg"></div>
+
+        <div class="container py-5 text-center cta-content">
+            <div>
+                <span class="cta-tagline">Vagas abertas</span>
+                <h2 class="cta-title mb-3">INSCREVA-SE NESSA TRILHA!</h2>
+                <p class="cta-desc mb-5">
+                    Faça parte da transformação da saúde no sistema prisional.<br>
+                    Qualifique-se para implementar a PNAISP e impactar vidas.
+                </p>
+
+                <a href="#" class="btn-cta-principal mb-5">
+                    <i class="bi bi-pencil-square"></i>Quero me Inscrever
+                </a>
+
+                <div class="d-flex flex-wrap justify-content-center gap-4 mt-4">
+                    <div class="cta-info-item"><i class="bi bi-laptop"></i><span>EAD</span></div>
+                    <div class="cta-divider d-none d-md-block"></div>
+                    <div class="cta-info-item"><i class="bi bi-clock"></i><span>115 horas</span></div>
+                    <div class="cta-divider d-none d-md-block"></div>
+                    <div class="cta-info-item"><i class="bi bi-award"></i><span>Certificado de conclusão</span></div>
+                    <div class="cta-divider d-none d-md-block"></div>
+                    <div class="cta-info-item"><i class="bi bi-people"></i><span>Gestores, trabalhadores e profissionais
+                            da saúde</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <img src="image/logo-atencao-primaria-prisional-white.svg"
+                    alt="Logo QUALISaP — Atenção Primária Prisional, versão branca" class="footer-brand-logo"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+                <span style="display:none;" class="footer-logo-text">QUALISaP-PNAISP</span>
+            </div>
+
+            <hr class="footer">
+
+            <p class="footer-copy">
+                Alguns direitos reservados. É permitida a reprodução, a disseminação e a utilização desta obra, em parte
+                ou em sua totalidade, nos Termos de uso do ARES. Deve ser citada a fonte e é vedada sua utilização
+                comercial.<br>
+                <span class="footer-copy-year">© 2025. Ministério da Saúde. Fundação Oswaldo Cruz Mato Grosso do
+                    Sul.</span>
+            </p>
+        </div>
+    </footer>
+
+    <a href="#inscricao" class="btn-float-cta" aria-label="Inscreva-se no curso">
+        <i class="bi bi-pencil-square"></i>
+        <span class="d-none d-sm-inline">Inscreva-se</span>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
