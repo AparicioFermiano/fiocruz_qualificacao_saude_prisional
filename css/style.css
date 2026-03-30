@@ -125,6 +125,33 @@ p { color: var(--tx-secondary); }
   overflow: hidden;
 }
 
+.hero-scroll-hint {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(30,50,70,0.55);
+  text-decoration: none;
+  animation: scrollBounce 1.8s ease-in-out infinite;
+  cursor: pointer;
+  z-index: 10;
+}
+.hero-scroll-hint:hover { color: rgba(30,50,70,0.85); text-decoration: none; }
+.hero-scroll-hint i { font-size: 1.1rem; }
+
+@keyframes scrollBounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50%       { transform: translateX(-50%) translateY(6px); }
+}
+
+
 .hero::before {
   content: '';
   position: absolute;
