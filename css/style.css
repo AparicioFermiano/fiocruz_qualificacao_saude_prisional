@@ -904,15 +904,6 @@ p { color: var(--tx-secondary); }
   object-fit: cover;
 }
 
-.footer-placeholder-logo { height: 42px; }
-
-.footer-fallback-item {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-.footer-fallback-item i { color: #adb5bd; }
-
 /* ============================================================
    RESPONSIVE
 ============================================================ */
